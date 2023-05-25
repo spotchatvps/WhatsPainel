@@ -293,7 +293,7 @@ const Contacts = () => {
           >
             {i18n.t("contacts.buttons.add")}
           </Button>
-          <CSVLink style={{ textDecoration:'none'}} separator=";" filename={'contato_multiconversa.csv'} data={contacts.map((contact) => ({ name: contact.name, number: contact.number, email: contact.email }))}>
+          <CSVLink style={{ textDecoration:'none'}} separator=";" filename={'contato_spotchat.csv'} data={contacts.map((contact) => ({ name: contact.name, number: contact.number, email: contact.email }))}>
 		   <Button
 		    variant="contained"
 		    color="primary">
